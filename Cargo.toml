@@ -1,0 +1,11 @@
+[package]
+name = "littinit"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+nix = { version = "0.30.1", features = ["ioctl", "mount", "process"] }
+
+[build-dependencies]
+bindgen = "0.72.0"
